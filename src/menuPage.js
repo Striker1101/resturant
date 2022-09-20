@@ -149,14 +149,16 @@ container.appendChild(contentMenu)
         homepage.addEventListener("click", () =>{
             console.log("homepage")
             homepageLink();
-            welcome.style = "display: none;"
-            contentMenu.style = "display: none;"
+            /*welcome.style = "display: none;"
+            contentMenu.style = "display: none;"*/
+            container.innerHTML = ""
         })
         contact.addEventListener("click", () =>{
             console.log("contact")
             contactLink()
-            welcome.style = "display: none;"
-            contentMenu.style = "display: none;"
+           /* welcome.style = "display: none;"
+            contentMenu.style = "display: none;"*/
+            container.innerHTML = ""
         })
 }
 

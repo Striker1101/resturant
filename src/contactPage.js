@@ -73,17 +73,23 @@ form.appendChild(text)
 let b3 = document.createElement('br')
 form.appendChild(b3)
 
+let submit = document.createElement('input')
+submit.classList.add('submit')
+submit.setAttribute("type", "submit")
+form.appendChild(submit)
 
 menu.addEventListener("click", () =>{
     console.log("menu")
-    welcome.style = "display:none"
-    form.style = "display:none"
+    /*welcome.style = "display:none"
+    form.style = "display:none"*/
+    container.innerHTML = ""
     menuPage()
 })
 homepage.addEventListener("click", () =>{
     console.log("homepage")
-    welcome.style = "display:none"
-    form.style = "display:none"
+    /*welcome.style = "display:none"
+    form.style = "display:none"*/
+    container.innerHTML = ""
     homepageLink()
 
 })

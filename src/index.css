@@ -90,5 +90,10 @@ h3{
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
+}
+.submit{
+    color: antiquewhite;
+    background-color: rgb(184, 122, 42, 0.7);
+    border-radius: 5px;
 }

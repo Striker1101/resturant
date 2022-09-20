@@ -98,18 +98,20 @@ post3.style = "margin-right: 20px;"
 
 menu.addEventListener("click", () =>{
     console.log("menu")
-    content.style = "display: none;"
+    /*content.style = "display: none;"
     welcome.style = "display: none;"
     text.style = "display: none;"
-    link.style = "display: none;"
+    link.style = "display: none;"*/
+    container.innerHTML = ""
     menuPage()
 })
 contact.addEventListener("click", () =>{
     console.log("contact")
-    content.style = "display: none;"
+    /*content.style = "display: none;"
     welcome.style = "display: none;"
     text.style = "display: none;"
-    link.style = "display: none;"
+    link.style = "display: none;"*/
+    container.innerHTML = ""
     contactLink()
 })
 }
